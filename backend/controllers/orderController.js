@@ -9,8 +9,8 @@ const stripe = new Stripe(STRIPE_SECRET_KEY);
 // placing user order form frontend
 const placeOrder = async (req,res)=>{
 
-    // const frontend_url = 'https://green-grocery-backend.onrender.com';
-    const frontend_url = 'http://localhost:4000';
+    const frontend_url = 'https://green-grocery-backend.onrender.com';
+    // const frontend_url = 'http://localhost:4000';
     try {   
         const newOrder = new orderModel({
             userId:req.body.userId,
