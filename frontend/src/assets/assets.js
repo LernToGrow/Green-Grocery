@@ -23,14 +23,14 @@ import logout_icon from './logout_icon.png'
 
 
 
-import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png'
+import menu_1 from './menu_2.png'
+import menu_2 from './menu_1.png'
 import menu_3 from './menu_3.png'
 import menu_4 from './menu_4.png'
 import menu_5 from './menu_5.png'
-import menu_6 from './menu_6.png'
-import menu_7 from './menu_7.png'
-import menu_8 from './menu_8.png'
+import menu_6 from './menu_8.png'
+import menu_7 from './menu_6.png'
+import menu_8 from './menu_7.png'
 // import menu_9 from './menu_9.png'
 // import menu_10 from './menu_10.png'
 // import menu_11 from './menu_811png'
@@ -118,7 +118,7 @@ export const menu_list = [
         menu_image:menu_3
     },
     {
-        menu_name:"Bread and baked goods",
+        menu_name:"Bread",
         menu_image:menu_4
     },
     {
@@ -134,7 +134,7 @@ export const menu_list = [
         menu_image:menu_7
     },
     {
-        menu_name:"Pasta, rice, and cereals",
+        menu_name:"Pasta, rice",
         menu_image:menu_8
     },
     // {
